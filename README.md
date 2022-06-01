@@ -8,6 +8,7 @@ A series of tutorials on learning Machine Learning using the Python programming 
 <img src="images/python_icon.png" alt="Python Icon" width="150"/>
 
 <img src="images/machine_learning_chart.png" alt="Python Icon" width="1398"/>
-[Image Credit: https://towardsdatascience.com/machine-learning-algorithms-in-laymans-terms-part-1-d0368d769a7b]
+
+#### Image Credit: https://towardsdatascience.com/machine-learning-algorithms-in-laymans-terms-part-1-d0368d769a7b
 
 </div>

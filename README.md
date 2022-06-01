@@ -17,7 +17,7 @@ Image Credit: [Towards Data Science](https://towardsdatascience.com/machine-lear
 
 First, install Anaconda for your operating system of choice (e.g., Windows, macOS, Linux) using the instructions found at https://www.anaconda.com/.
 
-Then, install and configure your Conda environment:
+Then, create and configure your Conda environment:
 
 ```bash
 # Clone this repository:

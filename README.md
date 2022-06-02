@@ -30,7 +30,7 @@ cd MLForEveryone
 conda env create --name MLForEveryone -f environment.yml
 
 # Activate Conda environment located in the current directory:
-conda activate MLForEveryone/
+conda activate MLForEveryone
 
 # (Optional) Perform a full install of the pip dependencies described in 'requirements.txt':
 pip3 install -e .
@@ -38,3 +38,10 @@ pip3 install -e .
 # (Optional) To remove the long Conda environment prefix in your shell prompt, modify the env_prompt setting in your .condarc file with:
 conda config --set env_prompt '({name})'
  ```
+
+Install the new Conda environment as a new Jupyter notebook kernel:
+
+```bash
+conda activate MLForEveryone
+python3 -m ipykernel install --user
+```

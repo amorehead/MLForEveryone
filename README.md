@@ -13,7 +13,15 @@ Image Credit: [Towards Data Science](https://towardsdatascience.com/machine-lear
 
 </div>
 
-## Creating and configuring a local Conda environment
+## Course objectives
+
+By the end of this course, one will:
+1. Master the fundamentals of writing Python scripts
+2. Gain an understanding of the fundamental concepts in machine learning
+3. Employ Python to train machine learning models using either supervised learning, unsupervised learning, or reinforcement learning
+
+## Technical Setup
+### Creating and configuring a local Conda environment
 
 First, install Anaconda for your operating system of choice (e.g., Windows, macOS, Linux) using the instructions found at https://www.anaconda.com/.
 

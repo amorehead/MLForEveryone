@@ -53,3 +53,17 @@ Install the new Conda environment as a new Jupyter notebook kernel:
 conda activate MLForEveryone
 python3 -m ipykernel install --user
 ```
+
+## Tutorials
+
+To begin this course, navigate to the `notebook_tutorials` directory:
+
+```bash
+cd notebook_tutorials
+```
+
+Then, open up the Jupyter notebooks there as desired. For example:
+
+```bash
+jupyter notebook Introduction_to_Deep_Reinforcement_Learning.ipynb
+```

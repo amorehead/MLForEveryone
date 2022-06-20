@@ -45,7 +45,7 @@ pip3 install -e .
 
 # (Optional) To remove the long Conda environment prefix in your shell prompt, modify the env_prompt setting in your .condarc file with:
 conda config --set env_prompt '({name})'
- ```
+```
 
 Install the new Conda environment as a new Jupyter notebook kernel:
 
@@ -56,14 +56,10 @@ python3 -m ipykernel install --user
 
 ## Tutorials
 
-To begin this course, navigate to the `notebook_tutorials` directory:
+To begin this course, as desired, open up the Jupyter notebooks in the `notebook_tutorials` directory. For example, currently you can choose from:
 
-```bash
-cd notebook_tutorials
-```
+[Introduction to Python](https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Python.ipynb)
 
-Then, open up the Jupyter notebooks there as desired. For example:
+[Introduction to Machine Learning](https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Machine_Learning.ipynb)
 
-```bash
-jupyter notebook Introduction_to_Deep_Reinforcement_Learning.ipynb
-```
+[Introduction to Deep Reinforcement Learning](https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Deep_Reinforcement_Learning.ipynb)

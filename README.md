@@ -58,8 +58,8 @@ python3 -m ipykernel install --user
 
 To begin this course, as desired, open up the Jupyter notebooks in the `notebook_tutorials` directory. For example, currently you can choose from:
 
-<a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Python.ipynb" target="_blank">Introduction to Python</a>
+[Introduction to Python](https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Python.ipynb){:target="_blank"}
 
-<a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Machine_Learning.ipynb" target="_blank">Introduction to Machine Learning</a>
+[Introduction to Machine Learning](https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Machine_Learning.ipynb){:target="_blank"}
 
-<a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Deep_Reinforcement_Learning.ipynb" target="_blank">Introduction to Deep Reinforcement Learning</a>
+[Introduction to Deep Reinforcement Learning](https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Deep_Reinforcement_Learning.ipynb){:target="_blank"}

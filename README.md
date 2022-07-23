@@ -20,40 +20,6 @@ By the end of this course, one will:
 2. Gain an understanding of the fundamental concepts in machine learning
 3. Employ Python to train machine learning models using either supervised learning, unsupervised learning, or reinforcement learning
 
-## Technical Setup
-### Creating and configuring a local Conda environment
-
-First, install Anaconda for your operating system of choice (e.g., Windows, macOS, Linux) using the instructions found at https://www.anaconda.com/.
-
-Then, create and configure your Conda environment:
-
-```bash
-# Clone this repository:
-git clone https://github.com/amorehead/MLForEveryone
-
-# Change to project directory:
-cd MLForEveryone
-
-# Set up Conda environment locally
-conda env create --name MLForEveryone -f environment.yml
-
-# Activate Conda environment located in the current directory:
-conda activate MLForEveryone
-
-# (Optional) Perform a full install of the pip dependencies described in 'requirements.txt':
-pip3 install -e .
-
-# (Optional) To remove the long Conda environment prefix in your shell prompt, modify the env_prompt setting in your .condarc file with:
-conda config --set env_prompt '({name})'
-```
-
-Install the new Conda environment as a new Jupyter notebook kernel:
-
-```bash
-conda activate MLForEveryone
-python3 -m ipykernel install --user
-```
-
 ## Tutorials
 
 To begin this course, as desired, open up the Jupyter notebooks in the `notebook_tutorials` directory. For example, currently you can choose from:
@@ -64,8 +30,32 @@ To begin this course, as desired, open up the Jupyter notebooks in the `notebook
 
 <a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Deep_Reinforcement_Learning.ipynb" target="_blank">Introduction to Deep Reinforcement Learning</a>
 
-## Projects
+## Capstone Project
 
-This course includes a capstone project to give students the opportunity to apply the knowledge they have acquired in an exciting setting, development of video game agents using deep reinforcement learning. The projects current available to students are as follows.
+This course includes a capstone project to give students the opportunity to apply the knowledge they have acquired in an exciting setting, development of video game agents using deep reinforcement learning. The project currently available to students is as follows.
 
-<a href="https://minerl.io/" target="_blank">MineRL</a>
+### MineRL
+
+<a href="https://minerl.io/" target="_blank">MineRL</a> (pronounced like "mineral") is a Python package that allows one to develop intelligent software agents to play Minecraft, a popular sandbox video game available on a variety of platforms. Below are instructions for how to install MineRL on a machine running the Windows operating system.
+
+#### Installation
+
+##### Downloading and customizing required software
+1. Install <a href="https://www.anaconda.com/" target="_blank">Anaconda</a> (if not done previously)
+2. Install <a href="https://gitforwindows.org/" target="_blank">Git for Windows</a> (if not done previously)
+3. Set up Anaconda access inside Git Bash using <a href="https://discuss.codecademy.com/t/setting-up-conda-in-git-bash/534473" target="_blank">this guide</a>
+
+##### Creating and configuring a local Conda environment
+
+Now, create and configure your Conda environment:
+
+```bash
+# Set up Conda environment locally
+conda create --name MLForEveryone python=3.8
+
+# Activate Conda environment located in the current directory:
+conda activate MLForEveryone
+
+# Install MineRL as a Python package inside your new `MLForEveryone` Conda environment
+pip3 install git+https://github.com/minerllabs/minerl@v1.0.0
+```

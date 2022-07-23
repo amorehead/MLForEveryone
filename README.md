@@ -63,3 +63,9 @@ To begin this course, as desired, open up the Jupyter notebooks in the `notebook
 <a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Machine_Learning.ipynb" target="_blank">Introduction to Machine Learning</a>
 
 <a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Deep_Reinforcement_Learning.ipynb" target="_blank">Introduction to Deep Reinforcement Learning</a>
+
+## Projects
+
+This course includes a capstone project to give students the opportunity to apply the knowledge they have acquired in an exciting setting, development of video game agents using deep reinforcement learning. The projects current available to students are as follows.
+
+<a href="https://minerl.io/" target="_blank">MineRL</a>

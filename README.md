@@ -42,7 +42,7 @@ This course includes a capstone project to give students the opportunity to appl
 
 ##### Downloading and customizing required software
 1. Install <a href="https://www.anaconda.com/" target="_blank">Anaconda</a> (if not done previously)
-2. Install <a href="https://gitforwindows.org/" target="_blank">Git for Windows</a> (if not done previously)
+2. Install <a href="https://www.git-scm.com/" target="_blank">Git for Windows</a> (if not done previously)
 3. Set up Anaconda access inside Git Bash using <a href="https://discuss.codecademy.com/t/setting-up-conda-in-git-bash/534473" target="_blank">this guide</a>
 
 ##### Creating and configuring a local Conda environment

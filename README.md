@@ -41,11 +41,12 @@ This course includes a capstone project to give students the opportunity to appl
 #### Installation
 
 ##### Downloading and customizing required software
-1. Install <a href="https://www.anaconda.com/" target="_blank">Anaconda</a> (if not done previously)
-2. Install <a href="https://www.git-scm.com/" target="_blank">Git for Windows</a> (if not done previously)
-3. Set up Anaconda access inside Git Bash using <a href="https://discuss.codecademy.com/t/setting-up-conda-in-git-bash/534473" target="_blank">this guide</a>
-4. Install <a href="https://www.oracle.com/java/technologies/downloads/#java8-windows" target="_blank">Oracle's JDK 8</a>
-5. Add `C:\Program Files\Java\jdk1.8.0_341\bin` and `C:\Program Files\Git\bin` to the top of your system's PATH variable accessible via `Advanced System Settings`
+1. Install <a href="https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe" target="_blank">Python 3.8</a> (if not done previously)
+2. Install <a href="https://www.anaconda.com/" target="_blank">Anaconda</a> (if not done previously)
+3. Install <a href="https://www.git-scm.com/" target="_blank">Git for Windows</a> (if not done previously)
+4. Set up Anaconda access inside Git Bash using <a href="https://discuss.codecademy.com/t/setting-up-conda-in-git-bash/534473" target="_blank">this guide</a>
+5. Install <a href="https://www.oracle.com/java/technologies/downloads/#java8-windows" target="_blank">Oracle's JDK 8</a>
+6. Add `C:\Program Files\Java\jdk1.8.0_341\bin` and `C:\Program Files\Git\bin` to the top of your system's PATH variable accessible via `Advanced System Settings`
 
 ##### Creating and configuring a local Conda environment
 
@@ -59,5 +60,5 @@ conda create --name MLForEveryone python=3.8
 conda activate MLForEveryone
 
 # Install MineRL as a Python package inside your new `MLForEveryone` Conda environment
-pip3 install --upgrade minerl
+pip install git+https://github.com/minerllabs/minerl@v1.0.0
 ```

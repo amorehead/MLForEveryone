@@ -13,10 +13,10 @@ obs = env.reset()
 # take actions until either the agent dies or the three-minute timer runs out
 done = False
 while not done:
-    # Take a random action
+    # take a random action
     action = env.action_space.sample()
-    # In BASALT environments, sending ESC action will end the episode
-    # Lets not do that
+    # note: in BASALT environments, sending ESC action will end the episode
+    # let's not do that
     action["ESC"] = 0
     obs, reward, done, _ = env.step(action)
     env.render()

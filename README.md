@@ -70,7 +70,9 @@ Finally, test your MineRL installation with the following command(s).
 # Download a copy of this GitHub repository
 git clone https://github.com/amorehead/MLForEveryone.git
 
-# Run a test script for MineRL
+# Move to the directory containing the capstone project's script
 cd MLForEveryone/capstone_project_scripts/
+
+# Run a test script for MineRL
 python3 random_minerl_agent.py
 ```

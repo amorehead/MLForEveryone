@@ -61,3 +61,16 @@ conda activate MLForEveryone
 # Install MineRL as a Python package inside your new `MLForEveryone` Conda environment
 pip install git+https://github.com/minerllabs/minerl@v1.0.0
 ```
+
+##### Verifying the installation was successful
+
+Finally, test your MineRL installation with the following command(s).
+
+```bash
+# Download a copy of this GitHub repository
+git clone https://github.com/amorehead/MLForEveryone.git
+
+# Run a test script for MineRL
+cd MLForEveryone/capstone_project_scripts/
+python3 random_minerl_agent.py
+```

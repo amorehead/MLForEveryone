@@ -49,7 +49,7 @@ This course includes a capstone project to give students the opportunity to appl
 
 ##### Creating and configuring a local Conda environment
 
-Now, create and configure your Conda environment using your `Anaconda3 Command Prompt` search result:
+Now, create and configure your Conda environment using your `Anaconda Command Prompt` search result:
 
 ```bash
 # Set up Conda environment locally
@@ -71,14 +71,14 @@ Finally, test your MineRL installation with the following command(s).
 git clone https://github.com/amorehead/MLForEveryone.git
 
 # Move to the directory containing the capstone project's script
-cd MLForEveryone/capstone_project_scripts/
+cd MLForEveryone/capstone_project/
 
 # Run a test script for MineRL
-python3 random_minerl_agent.py
+python random_minerl_agent.py
 ```
 
 ##### Training your first reinforcement learning agent to play Minecraft!
 
 To train an agent to play Minecraft by turning observations of the pixels on the game's screen into actions to take in the game, see the below Google Colab notebook curated by the makers of MineRL.
 
-<a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Cloning_Human_Behavior_in_MineRL.ipynb" target="_blank">Introduction to Cloning Human Behavior in MineRL</a>
+<a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/capstone_project/Introduction_to_Cloning_Human_Behavior_in_MineRL.ipynb" target="_blank">Introduction to Cloning Human Behavior in MineRL</a>

@@ -76,3 +76,9 @@ cd MLForEveryone/capstone_project_scripts/
 # Run a test script for MineRL
 python3 random_minerl_agent.py
 ```
+
+##### Training your first reinforcement learning agent to play Minecraft!
+
+To train an agent to play Minecraft by turning observations of the pixels on the game's screen into actions to take in the game, see the below Google Colab notebook curated by the makers of MineRL.
+
+<a href="https://colab.research.google.com/github/amorehead/MLForEveryone/blob/main/notebook_tutorials/Introduction_to_Cloning_Human_Behavior_in_MineRL.ipynb" target="_blank">Introduction to Cloning Human Behavior in MineRL</a>
